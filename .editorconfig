@@ -73,7 +73,7 @@ csharp_style_expression_bodied_constructors = false:error
 csharp_style_expression_bodied_indexers = true:error
 csharp_style_expression_bodied_lambdas = true:suggestion
 csharp_style_expression_bodied_local_functions = false:error
-csharp_style_expression_bodied_methods = when_on_single_line:error
+csharp_style_expression_bodied_methods = when_on_single_line:suggestion
 csharp_style_expression_bodied_operators = false:error
 csharp_style_expression_bodied_properties = true:error
 
@@ -101,7 +101,7 @@ csharp_style_pattern_local_over_anonymous_function = true:error
 csharp_style_prefer_index_operator = true:error
 csharp_style_prefer_range_operator = true:error
 csharp_style_throw_expression = true:error
-csharp_style_unused_value_assignment_preference = discard_variable:error
+csharp_style_unused_value_assignment_preference = discard_variable:warning
 csharp_style_unused_value_expression_statement_preference = discard_variable:error
 
 # 'using' directive preferences
