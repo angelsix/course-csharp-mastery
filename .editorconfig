@@ -102,7 +102,7 @@ csharp_style_prefer_index_operator = true:error
 csharp_style_prefer_range_operator = true:error
 csharp_style_throw_expression = true:error
 csharp_style_unused_value_assignment_preference = discard_variable:warning
-csharp_style_unused_value_expression_statement_preference = discard_variable:error
+csharp_style_unused_value_expression_statement_preference = discard_variable:suggestion
 
 # 'using' directive preferences
 csharp_using_directive_placement = outside_namespace:error
