@@ -30,9 +30,11 @@ namespace BirthDayCalculator
             if (DateTimeOffset.TryParse(userText, out var parsedDate))
                 return parsedDate;
             else
+            {
                 Console.WriteLine("You did not enter a valid date");
 
-            return AskForDateOfBirth();
+                return AskForDateOfBirth();
+            }
         }
     }
 }
