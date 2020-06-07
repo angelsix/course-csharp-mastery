@@ -83,7 +83,7 @@ namespace BirthDayCalculator
 
             // Indicate if we have already passed the users date of birth
             // for the current year
-            var hasPassedBirthday = now.DayOfYear > date.DayOfYear;
+            var hasPassedBirthday = now.DayOfYear >= date.DayOfYear;
 
             // Get a date representing the users next birthday
             var nextBirthday = new DateTimeOffset(now.Year + (hasPassedBirthday ? 1 : 0), date.Month, date.Day, 0, 0, 0, TimeSpan.Zero);
